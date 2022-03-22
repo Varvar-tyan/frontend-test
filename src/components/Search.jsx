@@ -2,7 +2,7 @@ import React from 'react';
 import {useEffect, useMemo, useState} from 'react';
 import debounce from 'lodash.debounce';
 import {useDispatch} from 'react-redux';
-import {getBands} from '../redux/thunks';
+import {getBands} from '../middleware/thunks';
 
 const Search = () => {
   const dispatch = useDispatch();

@@ -1,5 +1,5 @@
 import {bandsAPI} from '../api/bandsApi';
-import {failBands, loadBands, setBandsSuccess} from './actionCreators';
+import {failBands, loadBands, setBandsSuccess} from '../redux/actionCreators';
 
 export const getBands = (band) => async dispatch => {
   dispatch(loadBands());
